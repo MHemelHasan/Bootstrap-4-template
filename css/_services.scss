@@ -1,0 +1,79 @@
+
+
+.makes-your{
+    min-height: 15rem;
+    background-image: url(../img/light-house.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    h2{
+        color:#fff;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+    }
+}
+
+// ---------------- > services area
+
+.our-service{
+    padding: 3rem 0;
+
+    h2{
+        color: $headingColor;
+        margin-bottom: 2rem;
+        font-weight: 600;
+    }
+
+    .single-service {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+        h3{
+            color: $headingColor;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+
+
+
+    .single-service .side-icons{
+        float: right;
+        color: $primaryColor;
+        margin-right: 0;
+        margin-left: 1.9rem;
+        font-size: 30px;
+        width: 62px;
+        display: table-cell;
+        margin-bottom: 20px;
+        background-color: #f7f7f7;
+        height: 62px;
+        padding: 16px 0;
+        text-align: center;
+        margin-top: 1.9rem;
+        border-radius: 100%;
+        transition: background 0.2s ease-in-out 0s;
+    }
+
+    .side-icons.rgt {
+        float: left;
+        margin-left: 0 !important;
+        margin-right: 1.9rem;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

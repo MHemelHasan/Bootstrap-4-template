@@ -45,11 +45,15 @@
 }
 
 .header-area nav.navbar .navbar-toggler {
-  background-color: #000;
+  background-color: #fff0;
   color: #ffffff;
   font-size: 22px;
   -webkit-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
+}
+
+.header-area nav.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../img/menu.png);
 }
 
 .header-area nav.navbar .navbar-nav button {
@@ -66,6 +70,12 @@
 
 .header-area .sticky-wrapper.is-sticky > .nav.navbar {
   z-index: 9999999 !important;
+}
+
+@media (max-width: 1199.98px) {
+  .navbar-nav button {
+    padding: 0.5rem 0.5rem !important;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -188,6 +198,190 @@
   text-align: center;
   line-height: 80px;
   font-size: 28px;
+}
+
+.makes-your {
+  min-height: 15rem;
+  background-image: url(../img/light-house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.makes-your h2 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.our-service {
+  padding: 3rem 0;
+}
+
+.our-service h2 {
+  color: #3a3a3a;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.our-service .single-service {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.our-service .single-service h3 {
+  color: #3a3a3a;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.our-service .single-service .side-icons {
+  float: right;
+  color: #fab702;
+  margin-right: 0;
+  margin-left: 1.9rem;
+  font-size: 30px;
+  width: 62px;
+  display: table-cell;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  height: 62px;
+  padding: 16px 0;
+  text-align: center;
+  margin-top: 1.9rem;
+  border-radius: 100%;
+  -webkit-transition: background 0.2s ease-in-out 0s;
+  transition: background 0.2s ease-in-out 0s;
+}
+
+.our-service .side-icons.rgt {
+  float: left;
+  margin-left: 0 !important;
+  margin-right: 1.9rem;
+}
+
+.team-members {
+  background-color: #f9f9f9;
+  padding: 3rem 0;
+}
+
+.team-members .team-area-heading {
+  margin-bottom: 4rem;
+}
+
+.team-members .team-area-heading h2 {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.team-members .team-mems .mems-card-img {
+  overflow: hidden;
+}
+
+.team-members .team-mems img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 100%;
+}
+
+.team-members .team-mems:hover img {
+  -webkit-transform: scale(1.28);
+          transform: scale(1.28);
+}
+
+.team-members .mems-ditails {
+  z-index: 22;
+  padding: 1rem;
+  text-align-last: left;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-members .mems-ditails h5 {
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+.team-members .mems-ditails p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.contact-area {
+  padding: 3rem 0;
+}
+
+.contact-area h2 {
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 3rem;
+}
+
+.contact-area .card {
+  margin-bottom: 2rem;
+}
+
+.contact-area p {
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.contact-area form textarea {
+  resize: none;
+}
+
+.contact-area form button {
+  border-color: transparent;
+  background-color: #fab702;
+  padding: 0.5rem 3rem;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+.contact-area form button:hover {
+  background-color: #204d74;
+  border-color: transparent;
+}
+
+footer {
+  background-color: #131313;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p a {
+  color: #aaa;
+}
+
+footer p a:hover {
+  text-decoration: none;
+  color: #fab702;
+}
+
+footer ul {
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: #fab702;
 }
 
 * {

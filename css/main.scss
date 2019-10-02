@@ -1,0 +1,29 @@
+@import "./variable";
+@import "./header";
+@import "./home-banner";
+@import "./about";
+@import "./services";
+@import "./teammembers";
+@import "./query-area";
+@import "./footer";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: none !important;
+}
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    line-height: 24px;
+}

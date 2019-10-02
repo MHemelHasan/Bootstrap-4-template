@@ -1,0 +1,133 @@
+
+
+.header-area{
+    
+    .header-top-bar{
+        background-color: $primaryColor;
+        color: white;
+        max-height: 3.49rem;
+
+        ul{
+            padding: 0.5rem 0;
+        }
+    
+        ul li{
+            display: inline-block;
+            &:hover {
+                opacity: 0.9;
+            }
+            a{
+                color: white;
+            }
+        }
+    
+        .list-unstyled li a i{
+            padding: 0 0.30rem;
+        }
+
+
+    }
+
+
+    nav.navbar{
+        transition: all 0.5s ease 0s;
+        background-color: #fff;
+        padding: 1.5rem 2rem;
+        ul li a{
+            padding: 0.6rem 1rem !important;
+            font-size: 1rem;
+            &:hover{
+                color: $primaryColor !important;
+            }
+
+        }
+
+        ul .nav-item.active>.nav-link{
+            color: $primaryColor !important;
+        }
+
+        .navbar-toggler{
+            background-color: #fff0;
+            color: #ffffff;
+            font-size: 22px;
+            transition: all 0.2s ease-out 0s;
+
+            .navbar-toggler-icon{
+                background-image: url(../img/menu.png);
+            }
+
+        }
+        .navbar-nav{
+            button{
+                border-color: transparent;
+                background-color: $primaryColor;
+                padding: 0.5rem 1.5rem;
+                &:hover{
+                    background-color: $buttonHoverC;
+                }
+                box-shadow: none
+            }
+        }
+
+
+
+    }
+
+    .sticky-wrapper.is-sticky> .nav.navbar{
+        z-index: 9999999 !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1199.98px){
+    .navbar-nav{
+        button{
+            padding: 0.5rem 0.5rem !important;
+        }
+    }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 991.98px) { 
+    .header-top-bar{
+        max-height: unset !important;
+    }
+
+    .navbar-nav button{
+        display: none;
+    }
+
+
+ }
+
+ @media (max-width: 767.98px) { 
+
+    .header-top-bar ul{
+        padding: 0;
+    }
+
+
+
+ }
+
+
+
+
+
+
+
+
+

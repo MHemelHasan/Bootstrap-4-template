@@ -1,0 +1,39 @@
+
+
+footer{
+    background-color: #131313;
+    padding: 2rem 0;
+    color: #fff;
+
+    p{
+        margin: 0;
+        a{
+            color: #aaa;
+            &:hover{
+                text-decoration: none;
+                color: $primaryColor;
+            }
+        }
+
+    }
+
+    ul {
+        margin: 0;
+        li {
+            display: inline-block;
+            margin-right: 1rem;
+
+            a{
+            color: #fff;
+                &:hover{
+                    text-decoration: none;
+                    color: $primaryColor;
+                }
+            }
+        }
+    
+    }
+        
+
+
+}

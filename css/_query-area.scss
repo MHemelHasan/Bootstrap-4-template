@@ -1,0 +1,46 @@
+
+
+
+.contact-area{
+    padding: 3rem 0;
+
+    h2{
+        font-weight: 700;
+        color: $headingColor;
+        margin-bottom: 3rem;
+    }
+
+    .card{
+        margin-bottom: 2rem;
+    }
+
+    p{
+        font-weight: 600;
+        color: $headingColor;
+    }
+
+    form{
+        textarea{
+            resize: none;
+        }
+
+        button{
+            border-color: transparent;
+            background-color: $primaryColor;
+            padding: 0.5rem 3rem;
+            border-radius: 0;
+            color: #fff;
+            font-weight: 400;
+            &:hover{
+                background-color: $buttonHoverBdC;
+                border-color: transparent;
+            }
+        }
+
+
+    }
+
+
+
+
+}

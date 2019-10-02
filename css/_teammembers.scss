@@ -1,0 +1,58 @@
+
+
+.team-members{
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+
+
+
+
+    .team-area-heading{
+        margin-bottom: 4rem;
+
+        h2{
+            font-weight: 600;
+            color: $headingColor;
+        }
+    }
+
+    .team-mems{
+        .mems-card-img{
+            overflow: hidden;
+        }
+
+        img{
+            transition: 0.4s ease;
+            width: 100%;
+        }
+        &:hover img{
+            transform: scale(1.28);
+        }
+    }
+
+    .mems-ditails{
+        z-index: 22;
+        padding: 1rem;
+        text-align-last: left;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+
+        h5{
+            font-weight: 600;
+            color:$headingColor;
+            margin: 0;
+        }
+        p{
+            margin: 0;
+            text-transform: uppercase;
+        }
+    }
+
+
+
+
+
+
+
+
+}
